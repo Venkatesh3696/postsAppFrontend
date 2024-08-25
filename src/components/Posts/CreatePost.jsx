@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../Layout';
 import axios from 'axios';
+import { baseUrl } from '../../config/baseUrl';
 
 const CreatePost = () => {
 	const [title, setTitle] = useState('');

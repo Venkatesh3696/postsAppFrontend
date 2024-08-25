@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Layout from './Layout';
 import Post from './Posts/Post';
+import { baseUrl } from '../config/baseUrl';
 
 const Homepage = () => {
 	const [posts, setPosts] = useState([]);

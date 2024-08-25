@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { baseUrl } from '../../config/baseUrl';
 
 const ViewPost = () => {
 	const [postData, setPostData] = useState(null);

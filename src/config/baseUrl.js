@@ -1,1 +1,1 @@
-const baseUrl = 'https://postsappbackend.onrender.com';
+export const baseUrl = 'https://postsappbackend.onrender.com';
