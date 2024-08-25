@@ -6,7 +6,7 @@ const Post = ({ details }) => {
 	const { id, title, description } = details;
 
 	return (
-		<li className=' border-2 w-[400px] h-[300px] p-4 flex flex-col justify-between gap-2 m-auto mb-4'>
+		<li className=' border-2 w-[400px] h-[300px] p-4 flex flex-col justify-between gap-2 m-auto mb-4' onClick={}>
 			<div>
 				<h1 className='text-xl'>{title}</h1>
 				<p>

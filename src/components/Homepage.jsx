@@ -9,7 +9,7 @@ const Homepage = () => {
 
 	const fetchPosts = async () => {
 		console.log('fetching');
-		const { data } = await axios.get('http://localhost:5000/posts');
+		const { data } = await axios.get(`${baseUrl}/posts`);
 		// console.log('data', data);
 		setPosts(data.posts);
 	};

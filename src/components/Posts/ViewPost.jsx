@@ -8,7 +8,7 @@ const ViewPost = () => {
 
 	const fetchPosts = async () => {
 		console.log('fetching');
-		const { data } = await axios.get(`http://localhost:5000/posts/${id}`);
+		const { data } = await axios.get(`${baseUrl}/posts/${id}`);
 
 		console.log('postData', postData);
 		setPostData({ ...data.post });

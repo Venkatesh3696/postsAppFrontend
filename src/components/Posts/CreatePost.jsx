@@ -7,7 +7,7 @@ const CreatePost = () => {
 	const [description, setDescription] = useState('');
 
 	const createPost = async () => {
-		const result = await axios.post('http://localhost:5000/posts', {
+		const result = await axios.post(`${baseUrl}/posts`, {
 			title,
 			description,
 		});
